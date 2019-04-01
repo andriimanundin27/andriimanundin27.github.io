@@ -1,8 +1,165 @@
-header{
-	
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  	.fixed-width{
+		width: 80%;
+		margin: 0 auto;
+		color: white;
+	}
+
+	header{
+		height:75vh;
+	}
+
+  
 }
-.fixed-width{
-	width: 80%;
-	border:solid;
-	margin: 0 auto;
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  	.fixed-width{
+		width: 80%;
+		margin: 0 auto;
+		color: white;
+	}
+	header{
+		height:75vh;
+	}
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  	.fixed-width{
+		width: 80%;
+		margin: 0 auto;
+		color: white;
+	}
+	header{
+		height:75vh;
+	}
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  	.fixed-width{
+		width: 80%;
+		margin: 0 auto;
+		color: white;
+	}
+	header{
+		height:75vh;
+	}
+
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+	.fixed-width{
+		width: 98%;
+		margin: 0 auto;
+		color: white;
+	}
+	header{
+		height:90vh;
+	}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+	.fixed-width{
+		padding: 2%;
+		margin: 0 auto;
+		color: white;
+	}
+
+	header{
+		height:90vh;
+	}
+  
+}
+
+header{
+	background-image: url("https://images.unsplash.com/photo-1505968409348-bd000797c92e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+}
+
+.hurufHijau{
+	color:#20B2AA;
+}
+.navbar-brand{
+	color:white;
+	font-weight: bold;
+}
+.buttonMenu{
+	background-color: #20B2AA;
+	font-weight: bold;
+	border: none;
+	padding: 10%;
+}
+.teksTebal{
+	font-weight: bold;
+}
+.kotakAtas{
+	width:70%;
+}
+
+.navbar-default {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
+
+.aktip{
+	color: #20B2AA;
+	font-weight: bold;
+
+}
+
+ul,a{
+	color: white;
+}
+
+ul,a:hover{
+	color: #20B2AA;
+}
+
+.dropdown-menu > li > a{
+	color: #20B2AA;
+}
+
+.biodata{
+	margin-top: 10%;
 }
