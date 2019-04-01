@@ -8,8 +8,6 @@
   
   	.fixed-width{
 		width: 80%;
-		margin: 0 auto;
-		color: white;
 	}
   
 }
@@ -23,8 +21,6 @@
   
   	.fixed-width{
 		width: 80%;
-		margin: 0 auto;
-		color: white;
 	}
   
 }
@@ -38,8 +34,6 @@
   
   	.fixed-width{
 		width: 80%;
-		margin: 0 auto;
-		color: white;
 	}
 
   
@@ -54,8 +48,6 @@
   
   	.fixed-width{
 		width: 80%;
-		margin: 0 auto;
-		color: white;
 	}
 
   
@@ -70,8 +62,10 @@
   
 	.fixed-width{
 		width: 98%;
-		margin: 0 auto;
-		color: white;
+	}
+	.navbar-collapse{
+		position: absolute;
+		right:0px;
 	}
   
 }
@@ -84,17 +78,26 @@
 @media (min-width: 320px) and (max-width: 480px) {
   
 	.fixed-width{
-		padding: 2%;
-		margin: 0 auto;
-		color: white;
+		padding-right: 2%;
+		padding-left: 2%;
 	}
   
 }
 
+.fixed-width{
+	margin: 0 auto;
+	color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 header{
-	height:90vh;
+	height:95vh;
 	background-image: url("https://wallpapercave.com/wp/wp1933849.jpg");
 	background-size: 100%;
+	margin-bottom:5%;
 }
 
 .hurufHijau{
@@ -143,7 +146,7 @@ ul,a:hover{
 .biodata{
 	margin-top: 10%;
 	padding-bottom: 15%;
-	margin-bottom:10%;
+	margin-bottom:15%;
 }
 
 .btn{
@@ -153,11 +156,14 @@ ul,a:hover{
 	margin-bottom: 10%;
 }
 
-.logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.aboutState{
+	padding-top: 3%;
+	color:black;
+	font-size: 3rem;
+}
+
+.navbar{
+	position: -webkit-sticky;
+  	position: sticky;
+  	top:0;
 }
