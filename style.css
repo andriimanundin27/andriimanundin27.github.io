@@ -8,6 +8,7 @@
   
   	.fixed-width{
 		width: 80%;
+		font-size:1.2em;
 	}
   
 }
@@ -21,6 +22,7 @@
   
   	.fixed-width{
 		width: 80%;
+		font-size:1.5em;
 	}
   
 }
@@ -34,6 +36,7 @@
   
   	.fixed-width{
 		width: 80%;
+		font-size:1.5em;
 	}
 
   
@@ -48,6 +51,7 @@
   
   	.fixed-width{
 		width: 80%;
+		font-size:1.1em;
 	}
 
   
@@ -62,6 +66,7 @@
   
 	.fixed-width{
 		width: 98%;
+		font-size:1.5em;
 	}
 	.navbar-collapse{
 		position: absolute;
@@ -150,7 +155,7 @@ ul,a:hover{
 	margin-bottom:15%;
 }
 
-.btn{
+.btnp{
 	background-color:transparent !important;
 	border:solid;
 	border-color:white;
@@ -167,4 +172,22 @@ ul,a:hover{
 	position: -webkit-sticky;
   	position: sticky;
   	top:0;
+}
+
+.hitam{
+	color: black;
+}
+
+.image-container{
+	overflow: hidden;
+	max-height: 10%;
+}
+
+.marginb{
+	margin-bottom:5%;
+}
+.flyr{
+	align-content: left;
+	position: absolute;
+	color: red;
 }
