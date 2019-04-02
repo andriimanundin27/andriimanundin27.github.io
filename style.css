@@ -94,9 +94,12 @@ html {
 }
 
 header{
-	height:95vh;
+	height:75vh;
 	background-image: url("https://4.bp.blogspot.com/-f-tfQgLFR9o/XKLA-NXOsmI/AAAAAAAAC0g/JPRo73caLQwua2nCp1E0--bKzccU-YHRQCLcBGAs/s1600/1.JPG");
 	margin-bottom:5%;
+	background-size: 100%;
+	background-repeat-x: no-repeat;
+	background-repeat-y: no-repeat;
 }
 
 .hurufHijau{
