@@ -193,3 +193,25 @@ ul,a:hover{
 #Services{
 	background-color: #20B2AA;
 }
+
+.kotak{
+	background-color: #DCDCDC;
+}
+
+.paddingk{
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+
+}
+
+.totop{
+	position: fixed;
+  	bottom: 0;
+}
+
+.wrapper{
+	text-align: right;
+	width: 97%;
+	padding: 1%;
+}
