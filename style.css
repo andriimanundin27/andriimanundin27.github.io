@@ -53,6 +53,9 @@
 		width: 80%;
 		font-size:1.1em;
 	}
+	.wrapper{
+		padding:3%;
+	}
 
   
 }
@@ -72,6 +75,9 @@
 		position: absolute;
 		right:0px;
 	}
+	.wrapper{
+		padding:3%;
+	}
   
 }
 
@@ -83,16 +89,18 @@
 @media (min-width: 320px) and (max-width: 480px) {
   
 	.fixed-width{
-		padding-right: 2%;
-		padding-left: 2%;
 		font-size:1em;
 	}
+	.wrapper{
+	padding:8%;
+}
   
 }
 
 .fixed-width{
 	margin: 0 auto;
 	color: white;
+	overflow: hidden;
 }
 
 html {
@@ -101,9 +109,7 @@ html {
 
 header{
 	height:95vh;
-	background-image: url("http://lorempixel.com/1920/1080/people");
-	background-repeat-x: no-repeat;
-	background-repeat-y: no-repeat;
+	background-image: url("http://lorempixel.com/1920/1080/nature");
 }
 
 .hurufHijau{
@@ -164,6 +170,7 @@ ul,a:hover{
 
 .aboutState{
 	padding-top: 3%;
+	padding-bottom: 3%;
 	font-size: 3rem;
 }
 
@@ -179,7 +186,7 @@ ul,a:hover{
 
 .image-container{
 	overflow: hidden;
-	max-height: 10%;
+	max-height: 50%;
 }
 
 .marginb{
@@ -194,8 +201,22 @@ ul,a:hover{
 	background-color: #20B2AA;
 }
 
+#Blog{
+	background-image:url("http://lorempixel.com/1920/1080/technics");
+}
+
 .kotak{
 	background-color: #DCDCDC;
+	overflow: hidden;
+}
+
+.kotakA{
+	padding:5%;
+}
+
+.kotakp{
+	background-color: #fff;
+	padding:5%;
 }
 
 .paddingk{
@@ -212,6 +233,9 @@ ul,a:hover{
 
 .wrapper{
 	text-align: right;
-	width: 97%;
-	padding: 1.5%;
+	width: 95%;
+}
+.readmore{
+	color: #20B2AA;
+	font-weight:bold;
 }
