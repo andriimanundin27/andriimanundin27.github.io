@@ -186,7 +186,7 @@ ul,a:hover{
 
 .image-container{
 	overflow: hidden;
-	max-height: 50%;
+	max-height: 20%;
 }
 
 .marginb{
@@ -208,6 +208,7 @@ ul,a:hover{
 .kotak{
 	background-color: #DCDCDC;
 	overflow: hidden;
+	height: 2%;
 }
 
 .kotakA{
@@ -217,6 +218,7 @@ ul,a:hover{
 .kotakp{
 	background-color: #fff;
 	padding:5%;
+	overflow: hidden;
 }
 
 .paddingk{
@@ -238,4 +240,33 @@ ul,a:hover{
 .readmore{
 	color: #20B2AA;
 	font-weight:bold;
+}
+
+.kurung{
+	padding:5%;
+	overflow: hidden;
+}
+
+#kataku{
+	background-color:#3B9C9C;
+}
+
+.tengah{
+	padding-top: 5%;
+	padding-right:2%;
+	padding-left:2%;
+}
+
+a.mywork{
+	background-color:white;
+	color: #3B9C9C;
+	font-weight:bold;
+	padding: 1% 3%;
+}
+
+a.hireme{
+	background-color:black;
+	color: white;
+	font-weight:bold;
+	padding: 1% 3%;
 }
