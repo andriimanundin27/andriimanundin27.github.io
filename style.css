@@ -164,7 +164,6 @@ ul,a:hover{
 
 .aboutState{
 	padding-top: 3%;
-	color:black;
 	font-size: 3rem;
 }
 
@@ -190,4 +189,7 @@ ul,a:hover{
 	align-content: left;
 	position: absolute;
 	color: red;
+}
+#Services{
+	background-color: #20B2AA;
 }
