@@ -130,6 +130,11 @@ header{
 	font-weight: bold;
 	font-size:1.3em;
 }
+
+.teksT{
+	font-weight: bold;
+	font-size:1.1em;
+}
 .kotakAtas{
 	width:80%;
 }
@@ -342,3 +347,49 @@ textarea {
 p.garis span{
   text-decoration: underline;
   }
+
+ .setengah{
+ 	width: 60%;
+ }
+
+.tanggal{
+ 	border:none;
+}
+
+ .date{
+ 	background-color:#20B2AA;
+ 	border:none;
+ 	color: white;
+ 	font-weight: bold;
+ 	padding:1% 3%;
+ }
+
+ .tanggal .date {
+    align-self: center;
+    justify-content: right;
+}
+
+.tanggal {
+  display: flex;
+}
+.date {
+    margin-left: auto;
+}
+      
+.kotakj{
+	padding:5%;
+	overflow: hidden;
+}
+
+.download{
+	padding:1% 4%;
+}
+
+.tanggal .persen{
+	align-self: center;
+    justify-content: right;
+}
+
+.persen{
+	margin-left: auto;
+}
