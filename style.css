@@ -100,7 +100,6 @@
 .fixed-width{
 	margin: 0 auto;
 	color: white;
-	overflow: hidden;
 }
 
 html {
@@ -392,4 +391,8 @@ p.garis span{
 
 .persen{
 	margin-left: auto;
+}
+
+button.btn{
+	background-color:transparent;
 }
