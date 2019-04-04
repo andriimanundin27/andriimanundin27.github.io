@@ -2,8 +2,30 @@
 <html>
 <head>
 	<title>Mamicamp FinalProject</title>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<style type="text/css">
+		p span {
+			text-decoration: underline;
+			}
+	</style>
 </head>
 <body>
 	<a href="https://tinyurl.com/mamicamp-1-fe-finaltask">FinalProject</a>
+	<p>andrii</p>
+	<script type="text/javascript">
+		$('p').each(function() {
+			var text = $(this).html(),
+            len = text.length,
+            result = [];
+            for (var i = 0; i < len; i++){
+            	if(i==(len/2)-2 || i==(len/2)-1 || i==(len/2) || i==(len/2)+1){
+            		result[i] = '<span>'+text[i]+'</span>';
+            	} else{
+            		result[i]=text[i]
+            	}
+            }
+            $(this).html(result.join(''));
+        });
+	</script>
 </body>
 </html>

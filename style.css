@@ -118,6 +118,7 @@ header{
 .navbar-brand{
 	color:white;
 	font-weight: bold;
+	font-size:1.5em;
 }
 .buttonMenu{
 	background-color: #20B2AA;
@@ -127,6 +128,7 @@ header{
 }
 .teksTebal{
 	font-weight: bold;
+	font-size:1.3em;
 }
 .kotakAtas{
 	width:80%;
@@ -171,7 +173,7 @@ ul,a:hover{
 .aboutState{
 	padding-top: 3%;
 	padding-bottom: 3%;
-	font-size: 3rem;
+	font-size: 3.2rem;
 }
 
 .navbar{
@@ -284,3 +286,59 @@ a.hireme{
 	background-color:transparent;
 	border:none;
 }
+
+.input-group{
+	padding-bottom:5%;
+}
+
+textarea {
+  width: 90%;
+}
+
+.kanan{
+	text-align: right;
+	color:white;
+}
+
+.tkanan{
+	background-color:#3B9C9C;
+	border-color: none;
+	border:none;
+	padding:1.5% 4%;
+	border-radius: 5%;
+	font-size:0.8em;
+	font-weight:bold;
+}
+
+.container-fluid{
+	height: 5%;
+}
+
+#footer{
+	background-color:black;
+
+}
+.iconsosmed{
+	margin-bottom:5%;
+}
+.totoped{
+	background-color:transparent;
+	color: white;
+	border-radius: 100%
+	margin-top:10%;
+}
+.fab{
+	padding:1%;
+	background-color:grey;
+}
+.Qbox{
+	padding-left:2%;
+}
+
+.glyphicon{
+	color:#20B2AA ;
+}
+
+p.garis span{
+  text-decoration: underline;
+  }
