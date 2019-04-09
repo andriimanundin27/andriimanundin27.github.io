@@ -396,3 +396,17 @@ p.garis span{
 button.btn{
 	background-color:transparent;
 }
+
+.input-field{
+	width: 80%;
+}
+
+.bio{
+	border:solid;
+	display: flex;
+}
+
+.bio .alamat{
+	padding-left:3%;
+	max-width: 80%;
+}
